@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Community</title>
+    <link rel="stylesheet" href="acad.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Academic Community</h1>
+        <p>Connect, share, and learn with fellow academics!</p>
+    </header>
+    
+    <main>
+        <section id="event-form">
+            <h2>Create a New Academic Event</h2>
+            <input type="text" id="event-name" placeholder="Event Name" required>
+            <input type="text" id="event-date" placeholder="Event Date (YYYY-MM-DD)" required>
+            <input type="text" id="event-location" placeholder="Event Location" required>
+            <textarea id="event-description" placeholder="Event Description" required></textarea>
+            <button id="submit-event">Add Event</button>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Academic Events</h2>
+            <div id="event-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Academic Community</p>
+    </footer>
+
+    <script src="acad.js"></script>
+</body>
+</html>

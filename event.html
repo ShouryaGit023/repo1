@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Events and Meetups</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <header>
+        <h1>Community Events and Meetups</h1>
+        <p>Join us for exciting events!</p>
+    </header>
+    
+    <main>
+        <section id="event-form">
+            <h2>Create a New Event</h2>
+            <input type="text" id="event-name" placeholder="Event Name" required>
+            <input type="text" id="event-date" placeholder="Event Date (YYYY-MM-DD)" required>
+            <textarea id="event-description" placeholder="Event Description" required></textarea>
+            <button id="submit-event">Add Event</button>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div id="event-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Community Events</p>
+    </footer>
+
+    <script src="event.js"></script>
+</body>
+</html>
